@@ -41,7 +41,6 @@ https://drive.google.com/file/d/1F3lRf32JM8ejnXq-Cbf9y7fa57zSHGz_/view?usp=shari
 ## Preprocessing Techniques Explained
 - **Handling Missing Values**: Missing values can be filled using various strategies such as mean, median, mode, or even by using prediction models. In this project, we use median for numerical columns.
 - **Removing Duplicates**: Duplicate data can cause bias in the analysis. We remove all duplicate rows to maintain data integrity.
-- **Outlier Treatment**: Outliers can skew the results of data analysis. We identify outliers using the Interquartile Range (IQR) method and replace them with the median value.
 - **Encoding Categorical Data**: Machine learning algorithms require numerical input. Categorical data is converted to numerical values using label encoding and one-hot encoding.
 - **Feature Scaling**: Scaling is essential for algorithms that rely on distance calculations. We use StandardScaler for standard scaling and MinMaxScaler for scaling features to a range of 0 to 1
 
