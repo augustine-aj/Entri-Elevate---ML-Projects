@@ -71,9 +71,9 @@ This project involves analyzing property prices in the city of Bangalore with a 
 Real estate prices in Bangalore vary significantly across different locations and property types. This project aims to understand these variations by analyzing the price_per_sqft of properties. The analysis will involve detecting outliers, checking data normality, and investigating the correlations between different variables.
 
 ## Dataset
-**File Name**: house_price.csv
-**Source**: Google Drive Link
-Description: The dataset contains information on property prices in Bangalore, including features such as location, size, total square footage, number of bathrooms, price, and more.
+- **File Name**: house_price.csv
+- **Source**: Google Drive Link
+- **Description**: The dataset contains information on property prices in Bangalore, including features such as location, size, total square footage, number of bathrooms, price, and more.
 ## Objectives
 Perform basic exploratory data analysis (EDA).
 Detect and remove outliers using different statistical methods.
@@ -83,12 +83,12 @@ Analyze the correlations between numerical variables using a heatmap.
 Use scatter plots to further investigate relationships between variables.
 ## Project Workflow
 ### 1. Basic EDA
-Objective: Understand the basic structure of the dataset, including the distribution of values in different columns.
-Tasks:
-Load the dataset and inspect the first few rows.
-Check for missing values and data types.
-Generate summary statistics for numerical columns.
-Explore the distribution of price_per_sqft.
+- **Objective**: Understand the basic structure of the dataset, including the distribution of values in different columns.
+-**Tasks**:
+- Load the dataset and inspect the first few rows.
+- Check for missing values and data types.
+- Generate summary statistics for numerical columns.
+- Explore the distribution of price_per_sqft.
 ### 2. Outlier Detection and Removal
 Objective: Identify and remove outliers in the price_per_sqft column using various methods.
 Methods:
