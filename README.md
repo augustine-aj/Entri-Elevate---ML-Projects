@@ -85,10 +85,10 @@ Use scatter plots to further investigate relationships between variables.
 ### 1. Basic EDA
 - **Objective**: Understand the basic structure of the dataset, including the distribution of values in different columns.
 - **Tasks**:
-- Load the dataset and inspect the first few rows.
-- Check for missing values and data types.
-- Generate summary statistics for numerical columns.
-- Explore the distribution of price_per_sqft.
+-- Load the dataset and inspect the first few rows.
+-- Check for missing values and data types.
+-- Generate summary statistics for numerical columns.
+-- Explore the distribution of price_per_sqft.
 ### 2. Outlier Detection and Removal
 - **Objective**: Identify and remove outliers in the price_per_sqft column using various methods.
 - **Methods**:
