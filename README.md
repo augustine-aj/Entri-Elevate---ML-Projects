@@ -85,17 +85,17 @@ Use scatter plots to further investigate relationships between variables.
 ### 1. Basic EDA
 - **Objective**: Understand the basic structure of the dataset, including the distribution of values in different columns.
 - **Tasks**:
--- Load the dataset and inspect the first few rows.
--- Check for missing values and data types.
--- Generate summary statistics for numerical columns.
--- Explore the distribution of price_per_sqft.
+        - Load the dataset and inspect the first few rows.
+        - Check for missing values and data types.
+        - Generate summary statistics for numerical columns.
+        - Explore the distribution of price_per_sqft.
 ### 2. Outlier Detection and Removal
 - **Objective**: Identify and remove outliers in the price_per_sqft column using various methods.
 - **Methods**:
-a) **Mean and Standard Deviation**: Calculate the mean and standard deviation, and consider values outside a certain range as outliers.
-b) **Percentile Method**: Use percentiles (e.g., 1st and 99th) to define outliers.
-c) **IQR (Interquartile Range) Method**: Calculate the IQR and define outliers as values beyond 1.5 * IQR from the quartiles.
-d) **Z-Score Method**: Calculate the Z-score for each value and consider those with a high absolute Z-score as outliers.
+- a) **Mean and Standard Deviation**: Calculate the mean and standard deviation, and consider values outside a certain range as outliers.
+- b) **Percentile Method**: Use percentiles (e.g., 1st and 99th) to define outliers.
+- c) **IQR (Interquartile Range) Method**: Calculate the IQR and define outliers as values beyond 1.5 * IQR from the quartiles.
+- d) **Z-Score Method**: Calculate the Z-score for each value and consider those with a high absolute Z-score as outliers.
 ### 3. Box Plot for Outlier Detection Methods
 Objective: Compare the effectiveness of different outlier removal methods by visualizing the results with box plots.
 Tasks:
