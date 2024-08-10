@@ -71,8 +71,8 @@ This project involves analyzing property prices in the city of Bangalore with a 
 Real estate prices in Bangalore vary significantly across different locations and property types. This project aims to understand these variations by analyzing the price_per_sqft of properties. The analysis will involve detecting outliers, checking data normality, and investigating the correlations between different variables.
 
 ## Dataset
-File Name: house_price.csv
-Source: Google Drive Link
+**File Name**: house_price.csv
+**Source**: Google Drive Link
 Description: The dataset contains information on property prices in Bangalore, including features such as location, size, total square footage, number of bathrooms, price, and more.
 ## Objectives
 Perform basic exploratory data analysis (EDA).
